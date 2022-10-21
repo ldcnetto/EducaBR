@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 15%;
+}
+
+.colC {
+    display: flex;
+    flex-direction: column;
+}
