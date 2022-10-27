@@ -1,0 +1,77 @@
+.all {
+  background-color: #f6f8f8;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.artigos {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.artigos p {
+  padding-bottom: 3rem;
+}
+
+.artigos h3 {
+  padding-bottom: 1rem;
+}
+
+.artigos h4 {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.cards {
+  max-width: 100%;
+}
+
+.card {
+  text-align: center;
+
+  background-color: #ffffff;
+
+  border: 1px solid gray;
+  border-radius: 0.6rem;
+
+  margin-bottom: 2rem;
+}
+
+.card img {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+
+  border: 1px solid gray;
+  border-radius: 1.5rem;
+  max-width: 90%;
+}
+
+.card h2 {
+  font-weight: 400;
+  color: #22262a;
+
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #22262a;
+
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: #22262a;
+  font-weight: 600;
+}
+
+h2 {
+
+}
+
+p {
+
+}

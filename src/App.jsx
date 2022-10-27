@@ -2,7 +2,7 @@ import styles from "./App.module.css"
 import { useState } from "react";
 import { 
   Nav,
-  Home,
+  Home, 
   Artigos,
   Sobre,
   Footer,
@@ -15,6 +15,12 @@ import {
 // Deixar a imagem do Sobre nós quadrada e com bordas arredondadas
 
 function App() {
+  window.addEventListener('resize', () => {
+    // Executa o mesmo script de antes
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
+  
   return(
     <>
       <Nav />

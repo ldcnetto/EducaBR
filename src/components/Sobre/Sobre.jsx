@@ -18,7 +18,7 @@ function Sobre() {
             </div>
         </div>
 
-        <div className={styles.colB}>
+        <div className={styles.image}>
             <img src={Estudando} alt="adolescente estudando" />
         </div>
         

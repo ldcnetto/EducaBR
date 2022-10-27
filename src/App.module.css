@@ -1,8 +1,13 @@
+:root {
+  font-size: 62.5%;
+}
+
 /* ----- GERAL ----- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -12,14 +17,41 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
+  color: #1F1F1F;
 }
   
 h1 {
-  font-size: 2.6rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: bold;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: large;
+}
+
+h3 {
+  font-size: large;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #6e0085;
 }
 
 p {
   font-family: 'Montserrat';
+
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+@font-face{
+  font-family: "Montserrat";
+  src: url("./assets/Montserrat-Regular.ttf");
 }

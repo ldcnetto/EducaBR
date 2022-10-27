@@ -1,0 +1,23 @@
+.all {
+  background-color: #6e0085;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 1.3rem;
+  padding-bottom: 3rem;
+}
+
+.logotipo a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nomeLogo p {
+  font-size: medium;
+}
+

@@ -3,13 +3,13 @@ import Logo from '../../assets/logo.svg'
 
 function Footer() {
   return(
-    <div>
+    <div className={styles.all}>
       <footer id="footer" className={styles.footer}>
         
         <div className={styles.colC}>
           <div className={styles.logotipo}>
             <a href="https://www.google.com.br">
-              <img src={Logo} alt="red logo" height={60} width={60}/>
+              <img src={Logo} alt="red logo" height={90} width={90}/>
             </a>
           </div>
           <div className="nomeLogo">
@@ -18,7 +18,7 @@ function Footer() {
         </div>
           
         <div className={styles.colD}>
-          <h3>contato</h3>
+          <h2>Contato</h2>
           <p>(99) 99999-9999</p>
           <p>contato@EducaBR.com</p>
           <p>©2022 EducaBR. Todos os direitos reservados.</p>

@@ -1,11 +1,41 @@
+.all {
+  background-color: #6e0085;
+}
+
 .footer {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .colC {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.nomeLogo a {
+  font-size: large;
+}
+
+.colD {
+  text-align: center;
+}
+
+.colD h2 {
+  color: #ffffff;
+  padding-bottom: 10px;
+
+  font-size: large;
+}
+
+.colD p {
+  color: #ffffff;
+  padding-bottom: 1rem;
+
+  font-size: medium;
 }
